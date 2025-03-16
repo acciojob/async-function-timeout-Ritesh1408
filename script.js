@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        output.innerHTML = "Waiting...";
+        output.innerHTML = "";
 
         const promise = (input, val) => {
             return new Promise((resolve) => {
